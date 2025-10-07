@@ -33,7 +33,8 @@ function calc() {
     document.getElementById("yield").innerHTML = "First Pass Yield = " + fpYield.toFixed(2) + "%";
     document.getElementById("nbin1").innerHTML = "Total Bin 1 needed to hit SYL = " + nbin1.toFixed(0);
     document.getElementById("ndbin1").innerHTML = "Needed Bin 1 during URE = " + ndbin1.toFixed(0);
-    document.getElementById("uryield").innerHTML = "Yield during URE = " + urYield.toFixed(2) + "%";
+    document.getElementById("uryield").innerHTML = "Yield during URE = " + uryield.toFixed(2) + "%";
+
   }
 }
 
@@ -42,3 +43,4 @@ function clr() {
   ["ttested", "yield", "nbin1", "ndbin1", "uryield"].forEach(id => document.getElementById(id).innerHTML = '');
   document.getElementById("myBar").style.width = "0%";
 }
+
